@@ -41,23 +41,6 @@ function chooseNormal(){
 	alert("Chose Normal")
 	document.getElementById("currentOpponent").innerHTML = "Current opponent is: Normal";
 }
-function gameNoTimeout(p,c,playerName){
-	if (p == c){
-		result = "It's a tie!";
-	}else if (p == "rock" && c == "paper"){
-		result = "The Computer Wins!";
-	} else if (p == "rock" && c == "scissors"){
-		result = playerName + " Wins!";
-	}else if(p == "paper" && c == "scissors"){
-		result = "The Computer Wins!";
-	} else if (p == "paper" && c == "rock"){
-		result = playerName + " Wins!";
-	}else if(p == "scissors" && c == "paper"){
-		result = playerName + " Wins!";
-	} else if (p == "scissors" && c == "rock"){
-		result = "The Computer Wins!";
-	}
-};
 function stevenBrain(){
 	if (playerChoice == "rock"){
 		computerChoice = "paper";
