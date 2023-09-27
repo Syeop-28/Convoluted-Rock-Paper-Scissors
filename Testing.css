@@ -1,0 +1,132 @@
+#background{
+	background-color: lightcoral;
+}
+#gameResult{
+	background-color: lightcyan;
+	width: 1500px;
+	height: 100px;
+	display: flex;
+ 	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+	font-weight: bold;
+	color: darkgreen;
+	margin-left: 10px;
+}
+#cpuChoice{
+	background-color: lightcyan;
+	width: 1500px;
+	height: 100px;
+	display: flex;
+ 	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	color: palevioletred;
+	margin-left: 10px;
+}
+#userChoice{
+	background-color: lightcyan;
+	width: 1500px;
+	height: 100px;
+	display: flex;
+ 	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	color: slateblue;
+	margin-left: 10px;
+}
+#rock{
+	width: 400px;
+	height: 100px;
+	border-radius: 30px;
+	font-size: 30px;
+	text-align: center;
+	margin-left: 160px;
+}
+#paper{
+	width: 400px;
+	height: 100px;
+	border-radius: 30px;
+	font-size: 30px;
+	text-align: center;
+}
+#scissors{
+	width: 400px;
+	height: 100px;
+	border-radius: 30px;
+	font-size: 30px;
+	text-align: center;
+}
+#userName{
+	width: 100px;
+	align: center;
+	display: flex;
+	flex-direction: row;
+	font-size: 30px;
+	text-align: center;
+	margin-right: 700px;
+	margin-left: 680px;
+}
+#playerWins{
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	width: 100px;
+	font-size: 30px;
+	margin-left: 720px;
+}
+#playerLosses{
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	width: 130px;
+	font-size: 30px;
+	margin-left: 720px;
+}
+#matchesPlayed{
+	margin-left: 1000px;
+}
+#gamemodeTitle{
+	width: 300px;
+	align: center;
+	display: flex;
+	font-size: 30px;
+	text-align: center;
+	margin-left: 680px;
+}
+#currentOpponent{
+	width: 500px;
+	align: center;
+	display: flex;
+	font-size: 30px;
+	text-align: center;
+	margin-left: 600px;
+}
+#steven{
+	width: 400px;
+	height: 100px;
+	border-radius: 30px;
+	font-size: 30px;
+	text-align: center;
+	margin-left: 160px;
+	background-color: plum;
+}
+#random{
+	width: 400px;
+	height: 100px;
+	border-radius: 30px;
+	font-size: 30px;
+	text-align: center;
+	background-color: plum;
+}
+#normal{
+	width: 400px;
+	height: 100px;
+	border-radius: 30px;
+	font-size: 30px;
+	text-align: center;
+	background-color: plum;
+}
+#restart{
+	margin-left: 735px;
+}
